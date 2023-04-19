@@ -19,7 +19,7 @@ The MVC design pattern is used to separate the concerns of the application into 
 2. Update the application.properties file with your own database name and password or create a .env file using the dotenv package in the pom.xml file.
 3. Build the project using Maven by running the command mvn clean install.
 4. Run the project by executing the main method in the RegistrationFormApplication class.
-5. Open your web browser and navigate to http://localhost:8080/registration.
+5. Open your web browser and navigate to http://localhost:8080/registration
 
 ## Key Features
 
