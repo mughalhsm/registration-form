@@ -44,17 +44,17 @@ public class CustomerDetails {
 
     @NotBlank(message = "First Name is mandatory")
     @Size(max = 50, message = "First Name should have maximum 50 characters")
-    @Column(name = "first_name", length = 50)
+    @Column(name = "first_name", length = 50, nullable = false)
     private String firstName;
 
     @NotBlank(message = "Last Name is mandatory")
     @Size(max = 50, message = "Last Name should have maximum 50 characters")
-    @Column(name = "last_name", length = 50)
+    @Column(name = "last_name", length = 50, nullable = false)
     private String lastName;
 
 
     @NotBlank(message = "Address Line 1 is mandatory")
-    @Column(name = "address_line_1")
+    @Column(name = "address_line_1", nullable = false)
     private String addressLine1;
 
     @Column(name = "address_line_2")
@@ -65,7 +65,7 @@ public class CustomerDetails {
 
     @NotBlank(message = "Postcode is mandatory")
     @Size(max = 10, message = "Postcode should have maximum 10 characters")
-    @Column(length = 10)
+    @Column(length = 10, nullable = false)
     private String postcode;
 
 
