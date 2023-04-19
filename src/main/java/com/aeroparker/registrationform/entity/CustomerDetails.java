@@ -60,7 +60,6 @@ public class CustomerDetails {
     @Column(name = "address_line_2")
     private String addressLine2;
 
-    @NotBlank(message = "City is mandatory")
     @Size(max = 255, message = "City should have maximum 255 characters")
     private String city;
 
@@ -70,7 +69,6 @@ public class CustomerDetails {
     private String postcode;
 
 
-    @NotBlank(message = "Phone Number is mandatory")
     @Size(max = 20, message = "Phone Number should have maximum 20 characters")
     @Column(name = "phone_number", length = 20)
     private String phone;

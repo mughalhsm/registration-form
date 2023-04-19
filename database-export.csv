@@ -1,0 +1,8 @@
+id,address_line_1,address_line_2,city,email_address,first_name,last_name,phone_number,postcode,registered,title
+1,"70 Little Street",,Manchester,j.brown@hotmail.com,James,Brown,07982627819,"M19 3DF","2023-04-19 19:04:27.952000","Mr "
+2,"67 Oxford Street",Rusholme,Manchester,gj@hotmail.com,Graham,Jones,07982627783,"M19 3D2","2023-04-19 19:05:38.908000","Mr "
+4,"12 Downing Street",Westminister,London,jen.bloggs@hotmail.com,Jenny,Bloggs,07839292001,"SW12 2GH","2023-04-19 23:05:35.690000",Mrs
+5,"12 Valley Street",Wythenshawe,Manchester,kyle12@hotmail.com,Kyle,Bloggs,07839292002,"M12 3DF","2023-04-19 23:06:30.351000",Mrs
+6,"23 Heaton Street",Eccles,Salford,wp4567@hotmail.com,William,Parker,07839292783,"M12 3IO","2023-04-19 23:07:34.952000",Prof
+7,"456 Princess Street","West Didsbury",Manchester,blaw@hotmail.com,Brittany,Law,07839293421,"M12 3KL","2023-04-19 23:08:55.583000","Dr "
+8,"45 Old Hall Lane",,,rsmith123@hotmail.com,Rachel,Smith,,"M2 7KL","2023-04-19 23:13:52.774000",Ms
